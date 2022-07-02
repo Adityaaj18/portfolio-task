@@ -29,6 +29,7 @@ const Blogs = () => {
 
    return (
       <div className="container">
+         <h1>Blogs</h1>
          <div className="row">
             {posts.map((post) => (
                <div className="col-lg-4 gy-4" key={post.id}>
